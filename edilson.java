@@ -10,10 +10,10 @@ public class edilson {
 		valor = gasolina * 0.77;
 		
 		if(valor > alcool) {
-			System.out.println("Gasolina é melhor!");
+			System.out.println("Álcool é melhor!");
 		}
 		else if(valor < alcool){
-			System.out.println("Álcool é melhor!");
+			System.out.println("Gasolina é melhor!");
 		}
 		else {
 			System.out.println("Gasolina e álcool são equivalentes!");
